@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SA Fitness</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to SA FINESS</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#location">Location</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="home">
+      <h2>Tentang Kami</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
+        exercitationem. Enim laudantium explicabo eum eaque, exercitationem
+        alias provident officiis necessitatibus nostrum deleniti impedit quod
+        nemo eius unde quidem voluptas iusto?
+      </p>
+    </section>
+    <section id="services">
+      <h2>Fasilitas</h2>
+      <ul>
+        <li>Personal Training</li>
+        <li>Ruang Gym Ber-AC</li>
+        <li>Kantin | Loker | Toilet</li>
+      </ul>
+    </section>
+    <section id="contact">
+      <h2>Kontak Kami</h2>
+      <form id="contactForm" action="#" method="post">
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Pesan:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <div class="form-buttons">
+          <button type="submit">Submit</button>
+          <button type="button" id="cancelButton">Cancel</button>
+        </div>
+      </form>
+      <div id="spinner" class="hidden"></div>
+      <p id="successMessage" class="hidden">
+        Terimakasih atas pesan nya kami akan menghubungi anda segera.
+      </p>
+    </section>
+    <section id="testimonials">
+      <h2>Testimoni Member Kami</h2>
+      <div class="testimonial">
+        <img src="asset/images/Aldi.jpg" alt="Aldi" />
+        <p>"Gym yang bagus dan tempat yang nyaman" - Aldi Saputra</p>
+      </div>
+      <div class="testimonial">
+        <img src="asset/images/sismawan.jpg" alt="Sismawan" />
+        <p>
+          "Gym nya memotivasi saya sebagai anak muda untuk lebih giat membangun
+          masa otot" - Sismawan Saputra
+        </p>
+      </div>
+    </section>
+    <section id="location">
+      <h2>Lokasi Kami</h2>
+      <div id="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.766673952049!2d108.87920777365272!3d-7.0366860929652795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6fa1479a4d6183%3A0x6a490d2bc9d5b255!2sSA%20FITNESS!5e0!3m2!1sid!2sid!4v1730008916549!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        >
+        </iframe>
+      </div>
+    </section>
+    <footer>
+      <p>Hubungi Kami di: safitness@gmail.com</p>
+      <div class="social-media">
+        <a href="https://www.facebook.com" target="_blank"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+        <a href="https://www.twitter.com" target="_blank"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <a href="https://www.instagram.com" target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://www.linkedin.com" target="_blank"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+      </div>
+    </footer>
+  </body>
+</html>
